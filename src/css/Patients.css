@@ -1,0 +1,39 @@
+.patients__input {
+  width: 100%;
+}
+
+.patients__buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.patients__button {
+  text-transform: inherit !important;
+}
+
+.patients__info {
+  width: 100%;
+  margin-bottom: 10px !important;
+}
+
+.patients__modalButton {
+  width: 100%;
+  text-transform: inherit !important;
+}
+
+.patients__gridForTable {
+  overflow: hidden !important;
+}
+
+/* .patients__gridForTable::-webkit-scrollbar {
+  display: none !important;
+} */
+
+@media only screen and (max-width: 900px) {
+  .patients__box {
+    height: 400px !important;
+    width: 400px !important;
+    overflow: scroll;
+  }
+}

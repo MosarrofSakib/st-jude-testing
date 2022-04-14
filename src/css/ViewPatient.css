@@ -1,0 +1,37 @@
+.test {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list {
+  width: 100% !important;
+  background-color: #585f66;
+  color: white;
+  padding: 10px;
+}
+
+.viewPatient__tableHead {
+  background-color: #343a40 !important;
+}
+
+.viewPatient__tableCell {
+  color: white !important;
+}
+
+.viewPatient__h1 {
+  text-align: center;
+}
+
+.viewPatient__dateField {
+  width: fit-content !important;
+}
+
+.viewPatient__breakdownText {
+  text-align: center !important;
+}
+
+.viewPatient__balanceDetailsButton {
+  margin-top: 15px !important;
+  text-transform: inherit !important;
+}

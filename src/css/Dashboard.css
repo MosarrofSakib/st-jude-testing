@@ -1,0 +1,61 @@
+.dashboard__appBar {
+  background-color: #ffffff !important;
+}
+
+.dashboard__menuIcon {
+  color: #343a40;
+}
+.dashboard__appbarText {
+  color: #343a40;
+}
+
+.dashboard__drawerHeader,
+.dashboard__divider {
+  background-color: #343a40;
+  color: white;
+}
+
+.dashboard__list {
+  height: 100%;
+  background-color: #343a40;
+  color: white;
+}
+
+.dashboard__logoutButton {
+  background-color: #5c636a;
+  color: white;
+}
+.dashboard__listItem {
+  background-color: #007bff;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.dashboard__icons {
+  color: white;
+}
+
+.dashboard__links {
+  text-decoration: none;
+  color: white;
+}
+
+.dashboard__link {
+  text-decoration: none;
+  color: #343a40;
+}
+
+.dashboard__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard__info > p {
+  margin-top: 20px;
+}
+
+.dashboard__info > small {
+  margin-top: -20px;
+}

@@ -1,0 +1,42 @@
+.appointments__input {
+  width: 100%;
+}
+
+.appointments__buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.appointments__button {
+  text-transform: inherit !important;
+}
+
+.appointments__info {
+  width: 100%;
+  margin-bottom: 10px !important;
+}
+
+.appointments__modalButton {
+  width: 100%;
+  text-transform: inherit !important;
+}
+
+.appointments__gridForTable {
+  overflow: hidden !important;
+}
+
+.appointments__gridForTable::-webkit-scrollbar {
+  display: none !important;
+}
+
+@media only screen and (max-width: 900px) {
+  .appointments__box {
+    height: 400px !important;
+    width: 400px !important;
+    overflow: scroll;
+  }
+  .appointments__button {
+    margin-bottom: 10px !important;
+  }
+}

@@ -1,0 +1,100 @@
+.generateLetter__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.generatePayment__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+  position: relative;
+}
+
+.generatePayment__generateButton {
+  position: absolute !important;
+  top: 60% !important;
+  left: 7% !important;
+  margin-right: 500px !important;
+  text-transform: inherit !important;
+}
+
+.generatePayment__inputButton {
+  position: absolute !important;
+  top: 50% !important;
+  left: 7% !important;
+  margin-right: 500px !important;
+  text-transform: inherit !important;
+}
+
+#form__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.dentalForm__container {
+  padding: 10px;
+  width: 40vw;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.dateRight {
+  width: 15vw;
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+}
+
+.toWhom {
+  width: fit-content;
+  align-self: flex-start;
+  font-size: 18px;
+}
+
+textarea {
+  width: 100% !important;
+  border: none !important;
+  border-bottom: 1px solid !important;
+  outline: none;
+}
+.dentist {
+  margin-top: -10px;
+  margin-left: 120px;
+}
+
+.bold-text {
+  font-weight: bolder !important;
+}
+
+.body {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.findings,
+.treatment {
+  display: inline-block;
+  word-wrap: break-word !important;
+  font-size: 18px;
+}
+
+.generateLetter__modal {
+  overflow: scroll;
+}
+
+@media screen and (max-width: 900px) {
+  .generatePayment__generateButton {
+    position: absolute;
+    top: 60% !important;
+    left: 3% !important;
+    margin-right: 500px !important;
+  }
+}

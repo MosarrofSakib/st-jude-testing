@@ -1,0 +1,42 @@
+.treatments__input {
+  width: 100%;
+}
+
+.treatments__buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.treatments__button {
+  text-transform: inherit !important;
+}
+
+.treatments__info {
+  width: 100%;
+  margin-bottom: 10px !important;
+}
+
+.treatments__modalButton {
+  width: 100%;
+  text-transform: inherit !important;
+}
+
+.treatments__gridForTable {
+  overflow: hidden !important;
+}
+
+.treatments__gridForTable::-webkit-scrollbar {
+  display: none !important;
+}
+
+@media only screen and (max-width: 900px) {
+  .treatments__box {
+    height: 400px !important;
+    width: 400px !important;
+    overflow: scroll;
+  }
+  .treatments__button {
+    margin-bottom: 10px !important;
+  }
+}
